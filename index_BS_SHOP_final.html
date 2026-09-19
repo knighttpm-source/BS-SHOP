@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BS SHOP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><span>BS</span><small>SHOP</small></div>
+    <nav><a href="#productos">Productos</a><a href="#contacto">Contacto</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">BIENVENIDO A</p>
+      <h1>BS <span>SHOP</span></h1>
+      <p>Compra tus productos de forma rápida y sencilla.</p>
+      <a class="hero-btn" href="#productos">Ver productos</a>
+    </section>
+
+    <section id="productos" class="products">
+      <h2>Productos</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="product-icon">RPG</div>
+          <h3>RPGs</h3>
+          <p>Producto RPG</p>
+          <div class="price">$1.00 USD</div>
+          <button class="buy-btn" type="button" onclick="window.location.href='https://www.paypal.com/ncp/payment/CAZTPKS7FBN3L';">COMPRAR</button>
+        </article>
+
+        <article class="card">
+          <div class="product-icon">1M</div>
+          <h3>1 Millon</h3>
+          <p>Producto de 1 millón</p>
+          <div class="price">$2.50 USD</div>
+          <button class="buy-btn" type="button" onclick="window.location.href='https://www.paypal.com/ncp/payment/9M8UZX4J6B464';">COMPRAR</button>
+        </article>
+
+        <article class="card">
+          <div class="product-icon">1M</div>
+          <h3>1 Millon ACC</h3>
+          <p>Producto de 1 millón ACC</p>
+          <div class="price">$1.30 USD</div>
+          <button class="buy-btn" type="button" onclick="window.location.href='https://www.paypal.com/ncp/payment/8AACNUJPNWTCG';">COMPRAR</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <h2>¿Necesitas ayuda?</h2>
+      <p>Contáctanos para resolver tus dudas o completar tu compra.</p>
+      <a href="#" onclick="contactar(); return false;">CONTACTAR</a>
+    </section>
+  </main>
+
+  <footer>© 2026 BS SHOP — Todos los derechos reservados.</footer>
+
+  <script>
+    function contactar() {
+      alert("Aquí puedes colocar tu Discord o WhatsApp.");
+    }
+  </script>
+</body>
+</html>
